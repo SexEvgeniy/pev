@@ -1,7 +1,6 @@
 import discord
 from discord.ext import commands
 from discord.ext.commands import bot
-import os
 
 prefix = "!"
 
@@ -50,4 +49,4 @@ async def ip(ctx):
 
 token = os.environ.get('BOT_TOKEN')
 
-bot.run(str(token))
+Bot.run("NjU0MzE2Mzc5NTc0NjMyNDU4.XfKG8g.2UGestXuPAtcdDiJMhfpdtu_zdk")

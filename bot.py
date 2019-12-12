@@ -48,6 +48,6 @@ async def ip(ctx):
     author = ctx.message.author
     await ctx.send(f"{author.mention}, ip сервера: 80.93.187.158:27415")   
 
-token = os.environ.get("BOT_TOKEN")
+token = os.environ.get('BOT_TOKEN')
 
 bot.run(str(token))

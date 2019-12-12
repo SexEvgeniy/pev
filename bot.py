@@ -1,6 +1,7 @@
 import discord
 from discord.ext import commands
 from discord.ext.commands import bot
+import os
 
 prefix = "!"
 
@@ -47,6 +48,4 @@ async def ip(ctx):
     author = ctx.message.author
     await ctx.send(f"{author.mention}, ip сервера: 80.93.187.158:27415")   
 
-token = os.environ.get('BOT_TOKEN')
-
-Bot.run("NjU0MzE2Mzc5NTc0NjMyNDU4.XfKG8g.2UGestXuPAtcdDiJMhfpdtu_zdk")
+Bot.run("NjU0MzE2Mzc5NTc0NjMyNDU4.XfKOsQ.2-UcBn9o_UsubmVe9dyXDf_VazI")
